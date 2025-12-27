@@ -1,7 +1,7 @@
-# from hate.logger import logging
-# from hate.exception import CustomException
-# import sys
-# from hate.configuration.gcloud_syncer import GCloudSync
+from hate.logger import logging
+from hate.exception import CustomException
+import sys
+from hate.configuration.gcloud_syncer import GCloudSync
 
-# obj = GCloudSync()
-# obj.sync_folder_from_gcloud("hate-speech2024", "dataset.zip", "download/dataset.zip")
+obj = GCloudSync()
+obj.sync_folder_from_gcloud("hate-speech81", "dataset.zip", "download/dataset.zip")
