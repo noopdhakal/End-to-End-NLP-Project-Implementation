@@ -1,12 +1,49 @@
-# End-to-End-NLP-Project-Implementation
+# End-to-end-NLP-Project-Implementation
 
 
-### How to run? 
+## Project Workflows
+
+- constants
+- config_enity
+- artifact_enity
+- components
+- pipeline
+- app.py
 
 
-<!-- --BASH
-conda create -n hate python=3.13 -y
+## How to run?
 
+```bash
+conda create -n hate python=3.8 -y
+```
+
+```bash
 conda activate hate
+```
 
-pip install -r requirments.txt -->
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+python app.py
+```
+
+
+# Gcloud cli
+https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe
+
+```bash
+gcloud init
+```
+
+
+## Deployment
+
+1. Setting up circleCI
+2. Switch on self hosted runner
+3. Create Project
+4. Configure EC2
+5. config.yml
+6. env variables
+7. 
